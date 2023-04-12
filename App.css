@@ -1,0 +1,59 @@
+body{
+  background-color: lightskyblue;
+}
+.container{
+  width:40%;
+  background-color:beige;
+  height: 80vh;
+  border-radius:5px;
+  margin: 0 auto;
+  margin-top : 100 px;
+  padding: 15px;
+  text-align: center;
+}
+.content{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.add input{
+  padding:8px 16px;
+  width: 80%;
+  
+}
+.add button{
+  background-color:burlywood;
+  border-radius: 12px;
+  font-size: 2em;
+  width: 30px;
+  padding: 5px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-end;
+  height: 450px;
+  background-color:cornsilk;
+  font-size: 1.5em;
+  text-align: left;
+  overflow-y: scroll;
+  padding-inline: 20px;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo img{
+  width: 20px;
+}
+.done{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
